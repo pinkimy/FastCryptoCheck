@@ -3,7 +3,6 @@
 [![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-0f9d58?logo=fastapi)](https://fastapi.tiangolo.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Made with ❤️](https://img.shields.io/badge/Made%20by-Anton%20Pavliukovets-ff69b4)](mailto:antonp601@gmail.com)
 
 **FastCryptoCheck** — This is an asynchronous, very simple example of a FastAPI service for tracking cryptocurrency rates.
 
