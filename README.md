@@ -68,6 +68,10 @@ Or: http://127.0.0.1:8000/currencies — list of currencies
 
 ---
 
+API From this example was taken from: https://coinmarketcap.com/api/
+
+---
+
 ## 🪪 License
 
 The project is distributed under the MIT license.
