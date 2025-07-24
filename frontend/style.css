@@ -1,68 +1,43 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: #f7f7f7;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+  font-family: sans-serif;
+  margin: 20px;
+  background: #f5f5f5;
 }
 
 .container {
-  text-align: center;
-  max-width: 800px;
-  width: 100%;
-  padding: 20px;
-}
-
-h1 {
-  color: #333;
+  display: flex;
+  gap: 30px;
 }
 
 .list-container {
-  max-height: 300px;
-  overflow-y: auto;
-  margin: 20px auto;
-  background: #fff;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  padding: 10px;
+  max-width: 200px;
 }
 
-ul#nameList {
+#nameList {
   list-style: none;
   padding: 0;
-  margin: 0;
 }
 
-ul#nameList li {
+#nameList li {
   padding: 10px;
-  margin-bottom: 5px;
-  background: #f1f1f1;
-  border-radius: 5px;
   cursor: pointer;
-  transition: background 0.2s;
+  background: white;
+  margin-bottom: 5px;
+  border-radius: 5px;
 }
 
-ul#nameList li:hover {
+#nameList li:hover {
   background: #e0e0e0;
 }
 
-ul#nameList li.selected {
-  background: #d0eaff;
-  font-weight: bold;
+#nameList li.selected {
+  background: #007bff;
+  color: white;
 }
 
 .json-output {
-  background: #eee;
-  text-align: left;
-  padding: 15px;
-  border-radius: 8px;
-  white-space: pre-wrap;
-  max-height: 300px;
-  overflow-y: auto;
-  font-size: 14px;
-  font-family: monospace;
-  margin-top: 20px;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  flex: 1;
 }
